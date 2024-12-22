@@ -23,7 +23,7 @@ A Python application that procedurally generates unique glyphs by combining diff
 ### 1. Clone this repo:
 
 ```bash
-git clone [repo-url]
+git clone https://github.com/Delportos/GlyphGen.git
 cd glyph-gen
 ```
 ### 2. Install required packages (if needed)
@@ -62,12 +62,14 @@ Row 3: Bottom radicals (0-4)
 
 ## Project Structure
 
+```
 glyph-generator/
 │
 ├── glyph_generator.py    # Main program file
 ├── radsheet1.png        # Spritesheet containing radicals
 ├── LICENSE             # MIT license
 └── README.md           # This file
+```
 
 ## How It Works
 The generator uses a 5×3 spritesheet of radical components. Each glyph is composed of:
