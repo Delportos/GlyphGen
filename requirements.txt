@@ -1,0 +1,11 @@
+# Core dependencies
+pygame>=2.0.0
+numpy>=1.20.0
+
+# SVG path generation and manipulation
+svgwrite>=1.4.0
+svgpathtools>=1.6.0
+
+# SVG to PNG rendering (optional, for previewing)
+cairosvg>=2.7.0
+Pillow>=10.0.0
